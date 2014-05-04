@@ -49,6 +49,10 @@ public class Noticia {
         this.setFecha(fecha);
         this.setMeGusta(meGusta);        
     }
+
+    public Noticia(int aInt, int aInt0, int aInt1, String string, String string0, String string1, String string2, java.sql.Date date) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
    
 
     /**

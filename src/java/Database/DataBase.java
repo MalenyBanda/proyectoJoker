@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class DataBase {
     private static String database="jcfcfmnew";
-    private static String server="localhost:3306";
+    private static String server="192.168.0.7";//"localhost:3306";
     private static String user="root";
     private static String password="123456789";    
     private Connection conexion;  
