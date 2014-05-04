@@ -46,6 +46,11 @@ public class Noticia {
                 {                    
                     list.add(new Model.Noticia(
                             rs.getInt("idNoticia"),
+                            rs.getInt("idSeccion"),
+                            rs.getInt("idUsuario"),
+                            rs.getString("u.Usuario"),
+                            rs.getString("titulo"),
+                            rs.getString("descripcion"),
                             rs.getString("noticia"),
                             rs.getString(null)));
                     rs.next();
